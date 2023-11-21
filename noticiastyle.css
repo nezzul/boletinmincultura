@@ -1,0 +1,35 @@
+
+      /* CONTAINER */
+  .containernews {
+    display: flex;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .containernews__inner {
+      width: 100%;
+      max-width: 1400px;
+  }
+
+/* TÍTULO DE PÁGINA */
+.titlepagnews {
+  color: white;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 2.5em;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: nunito, sans-serif;
+  font-weight: 600;
+  background-color: #4b3c8c;
+}
+
+/* IMAGEN */
+.imagenews img {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
